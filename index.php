@@ -31,7 +31,7 @@ echo $buffer;?>
         <div class="contentContainer">
             <div id="fullCell">
                 <ul class="twoCol">
-                    <li><img style="box-shadow: 0px 0px 10px #000" src="http://2.bp.blogspot.com/-if1qJmHZuDA/TmQCJKEIPrI/AAAAAAAAE6I/f7u8--2vZAQ/s320/Funny+Llama+pictures2.jpg" alt="LLAMA" width="90%" ></li>
+                    <li><img class="scalePic" style="box-shadow: 0px 0px 10px #000" src="http://2.bp.blogspot.com/-if1qJmHZuDA/TmQCJKEIPrI/AAAAAAAAE6I/f7u8--2vZAQ/s320/Funny+Llama+pictures2.jpg" alt="LLAMA"></li>
                     <li>
                         <h1><i>LLAMA (lama glama)</i></h1>
                         <ul class="list">
@@ -60,7 +60,7 @@ echo $buffer;?>
             <div>
             <div>
                 <ul class="twoCol">
-                    <li><img src="http://spectrumculture.com/wp-content/uploads/2013/03/Pearl-Jam-Vs.jpg" alt="LLAMA" width="300px"></li>
+                    <li><img src="http://spectrumculture.com/wp-content/uploads/2013/03/Pearl-Jam-Vs.jpg" alt="LLAMA" width="300"></li>
                     <li>
                         <div>
                             <h1>Adoreable = Marketable</h1>
@@ -80,12 +80,11 @@ echo $buffer;?>
                             <p>Long before YouTube came into existence, llamas became a hit. Burton Earny's The Llama Song is a classic that many people still listen today.</p>
                         </div>
                     </li>
-                    <li><iframe width="100%" height="480px" src="//www.youtube.com/embed/KMYN4djSq7o" frameborder="0" allowfullscreen></iframe></li>
+                    <li><iframe class="ytVid" src="//www.youtube.com/embed/KMYN4djSq7o" allowfullscreen></iframe></li>
                 </ul>
                 <br/>
             </div>
             </div>
-        </div>
         </div>
     </div>
     <div class="wrapper static" id="contactContainer" style="background: url('img/bg_contact.jpg') no-repeat;background-size: cover; background-position: center">
